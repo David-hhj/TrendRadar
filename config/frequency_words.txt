@@ -150,51 +150,51 @@
 [WORD_GROUPS]
 
 # ═══════════════════════════════════════════════════════════════
-#                         企业与品牌
+#                         AI短视频创作选题
 # ═══════════════════════════════════════════════════════════════
 
-/胖东来|于东来/ => 胖东来
 
-/深度求索|幻方量化|梁文锋|\bDeepSeek\b/ => DeepSeek
+[抖音热梗]
+/热梗|名场面|名台词|魔性BGM|洗脑神曲|搞笑配音/
+/反转剧情|无厘头|整活|整蛊|模仿挑战/
 
-/华为|任正非|余承东|鸿蒙|海思|昇腾|鲲鹏|\bHUAWEI\b|\bHarmonyOS\b|\bHiSilicon\b/ => 华为
+[AI短视频素材]
+/AI绘画|AI视频|AI短剧|AI换脸|AI配音|数字人|AI动画/
+/15秒短剧|竖屏短片|爆款脚本|反转段子|解压视频|治愈瞬间/
+/搞笑文案|神评论|神回复|名场面二创/
 
-/比亚迪|王传福|方程豹|腾势|仰望|弗迪|刀片电池|云辇|\bBYD\b|\bDenza\b|\bYangwang\b/ => 比亚迪
+[搞笑娱乐爆点]
+/搞笑|沙雕|爆笑|整活|翻车现场|大型社死|迷惑行为/
+/萌宠|猫咪|狗狗|宠物搞笑|动物名场面/
+/人类幼崽|萌娃搞笑|童言童语/
+/综艺名场面|喜剧梗|脱口秀名场面/
 
-/大疆|汪滔|灵眸|如影|\bDJI\b|\bRoboMaster\b|\bMavic\b|\bZenmuse\b/ => 大疆
+[情感共鸣热点]
+/治愈|暖心|破防|泪目|感动瞬间|人间温暖/
+/打工人|精神内耗|摆烂|躺平|先让自己乐起来/
+/当代年轻人现状|生活碎片|日常搞笑|真实记录/
 
-/宇树|王兴兴|\bUnitree\b/ => 宇树机器人
+[反转剧情热点]
+/反转|神反转|意想不到|结局大反转|神展开/
+/误会名场面|打脸瞬间|扮猪吃老虎/
 
-/智元|灵犀|稚晖君|彭志辉|AgiBot/ => 智元机器人
-/众擎|EngineAI|赵同阳/ => 众擎机器人
+[网红热点人物]
+/显眼包|网红名场面|博主整活|网红翻车/
+/土豆|吕严|喜剧人|脱口秀演员/
 
-/黑神话|冯骥/ => 黑神话悟空
+[生活趣味热点]
+/美食翻车|厨房毁灭者|奇葩食物|饮品整活/
+/健身搞笑|减肥翻车|运动名场面/
+/穿搭搞笑|时尚迷惑行为/
 
-/影之刃零|梁其伟/ => 影之刃零
+[影视动漫游戏热点]
+/影视名场面|动漫名场面|游戏名场面/
+/台词二创|角色配音|CP名场面/
+/游戏搞笑|游戏翻车|玩家迷惑行为/
 
-/三体|流浪地球|刘慈欣|郭帆/ => 三体/流浪地球
-
-申奥
-
-/京东|刘强东|\bJD\b|\bJingdong\b/ => 京东
-
-/字节|张一鸣|梁汝波|抖音|\bByteDance\b|\bTikTok\b|\bDouyin\b|\bLark\b|\bCapCut\b/ => 字节跳动
-
-/腾讯|鹅厂|马化腾|微信|QQ|天美|阅文集团|微众银行|\bTencent\b|\bPony Ma\b|\bWeChat\b|\bLightSpeed\b|\bWeBank\b/ => 腾讯
-
-/qwen|minimax|glm/ => 国产开源模型
-
-/特斯拉|马斯克|\bTesla\b|\bElon Musk\b|\bCybertruck\b|\bModel 3\b|\bModel Y\b|\bModel S\b|\bModel X\b|\bFSD\b/ => 特斯拉
-
-/英伟达|黄仁勋|\bNVIDIA\b|\bGeForce\b|\bRTX\b|\bCUDA\b|\bJensen Huang\b/ => 英伟达
-/苏姿丰|锐龙|霄龙|\bAMD\b|\bRyzen\b|\bEPYC\b|\bRadeon\b|\bLisa Su\b/ => AMD
-
-/微软|\bMicrosoft\b|\bWindows\b|\bAzure\b|\bSatya Nadella\b|\bCopilot\b/ => 微软
-/谷歌|皮查伊|安卓|油管|\bGoogle\b|\bAlphabet\b|\bAndroid\b|\bChrome\b|\bYouTube\b|\bGemini\b|\bDeepMind\b|\bWaymo\b/ => 谷歌
-/库克|\biPhone\b|\biPad\b|\bMacBook\b|\biOS\b|\bVision Pro\b|\bAirPods\b|\bApple\b|\bTim Cook\b/ => 苹果
-
-/\bOpenAI\b|\bChatGPT\b|\bSora\b|\bDALL-E\b|\bSam Altman\b|\bGreg Brockman\b/ => OpenAI
-/\bAnthropic\b|\bClaude\b|\bDario Amodei\b/ => Claude
+[社会趣味热点]
+/路人神反应|大爷大妈名场面|人类迷惑行为大赏/
+/奇葩新闻|离谱事件|搞笑日常/
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -256,3 +256,24 @@
 
 # 产业政策
 生产力
+
+/京东|刘强东|\bJD\b|\bJingdong\b/ => 京东
+
+/字节|张一鸣|梁汝波|抖音|\bByteDance\b|\bTikTok\b|\bDouyin\b|\bLark\b|\bCapCut\b/ => 字节跳动
+
+/腾讯|鹅厂|马化腾|微信|QQ|天美|阅文集团|微众银行|\bTencent\b|\bPony Ma\b|\bWeChat\b|\bLightSpeed\b|\bWeBank\b/ => 腾讯
+
+/qwen|minimax|glm/ => 国产开源模型
+
+/特斯拉|马斯克|\bTesla\b|\bElon Musk\b|\bCybertruck\b|\bModel 3\b|\bModel Y\b|\bModel S\b|\bModel X\b|\bFSD\b/ => 特斯拉
+
+/英伟达|黄仁勋|\bNVIDIA\b|\bGeForce\b|\bRTX\b|\bCUDA\b|\bJensen Huang\b/ => 英伟达
+/苏姿丰|锐龙|霄龙|\bAMD\b|\bRyzen\b|\bEPYC\b|\bRadeon\b|\bLisa Su\b/ => AMD
+
+/微软|\bMicrosoft\b|\bWindows\b|\bAzure\b|\bSatya Nadella\b|\bCopilot\b/ => 微软
+/谷歌|皮查伊|安卓|油管|\bGoogle\b|\bAlphabet\b|\bAndroid\b|\bChrome\b|\bYouTube\b|\bGemini\b|\bDeepMind\b|\bWaymo\b/ => 谷歌
+/库克|\biPhone\b|\biPad\b|\bMacBook\b|\biOS\b|\bVision Pro\b|\bAirPods\b|\bApple\b|\bTim Cook\b/ => 苹果
+
+/\bOpenAI\b|\bChatGPT\b|\bSora\b|\bDALL-E\b|\bSam Altman\b|\bGreg Brockman\b/ => OpenAI
+/\bAnthropic\b|\bClaude\b|\bDario Amodei\b/ => Claude
+
